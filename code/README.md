@@ -2,7 +2,8 @@
 
 * This tutorial is an updated copy of Maksim Ivanon's [CryptoKitties Clone in 20 Minutes: Non-Fungible Token Tutorial](https://maksimivanov.com/posts/gradient-coin-tutorial/)
 
-He goes even further 
+## After this:
+* Read the source documents [github erc721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) and a [deeper walkthrough of erc721](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
 
 
 # npm 
@@ -165,4 +166,6 @@ Test a method
     });
   });
 ```
+
+
 
