@@ -12,6 +12,8 @@ contract GraffitiToken is ERC721Token("GraffitiToken", "GRAFF"), Ownable {
     string inner;
   }
 
+  //
+  GraffitiToken[] public graffitiTokens;
   // dynamic array
   Gradient[] gradients;
 
