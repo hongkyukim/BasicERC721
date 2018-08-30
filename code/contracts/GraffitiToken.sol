@@ -11,4 +11,21 @@ contract GraffitiToken is ERC721Token("GraffitiToken", "GRAFF"), Ownable {
     string outer;
     string inner;
   }
+
+  // dynamic array
+  Gradient[] gradients;
+
+  function mint(string _outer, string _inner) public onlyOwner {
+    Gradient memory _gradient = Gradient({outer: _outer, inner: _inner });
+    uint _gradientId = gradients.push(_gradient) - 1;
+
+    // This comes from ERC721 Token
+    _mint(msg.sender, _gradientId);
+  }
+
+  function getGradient(uint _gradientId) public view returns(string outer, string inner) {
+    Gradient memory _grad = gradients[_gradientId];
+    outer = _grad.outer;
+    inner = _grad.inner;
+  }
 }
