@@ -4,7 +4,7 @@
 
 ## After this:
 * Read the source documents [github erc721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) and a [deeper walkthrough of erc721](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
-
+* [CryptoZombies](https://cryptozombies.io) is a great walk through and will get solidity into your muscle memory
 
 # npm 
 
