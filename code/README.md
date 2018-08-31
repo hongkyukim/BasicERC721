@@ -17,7 +17,9 @@ Use npm to install:
 # `basic truffle setup`
 
 `mkdir GraffitiTokenTutorial`
+
 `cd GraffitiTokenTutorial`
+
 `truffle init`
 
 This will set up your directory
