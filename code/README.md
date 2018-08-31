@@ -2,6 +2,22 @@
 
 * This tutorial is an updated copy of Maksim Ivanon's [CryptoKitties Clone in 20 Minutes: Non-Fungible Token Tutorial](https://maksimivanov.com/posts/gradient-coin-tutorial/)
 
+
+# Branches
+
+
+```
+  01-basic-setup
+  02-basic-token
+  03-token-test
+  03-token-test-2
+  04-add-mint
+  05-test-mint
+  06-standard-db
+```
+
+Start at branch `01-basic-setup`
+
 ## After this:
 * Read the source documents [github erc721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) and a [deeper walkthrough of erc721](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
 * [CryptoZombies](https://cryptozombies.io) is a great walk through and will get solidity into your muscle memory
