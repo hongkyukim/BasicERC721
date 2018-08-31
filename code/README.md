@@ -13,6 +13,7 @@ Use npm to install:
 
 * truffle - used for testing
 * OpenZeppelin - library for writing secure Smart Contracts on Ethereum. [https://github.com/protofire/zeppelin-solidity](https://github.com/protofire/zeppelin-solidity)
+* ganache-cli
 
 # `basic truffle setup`
 
